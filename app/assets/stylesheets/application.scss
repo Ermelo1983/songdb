@@ -1,0 +1,51 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.product-thumb{
+  height: 100px;
+}
+
+.container {
+  padding: 10px;
+  width: 1000px !important;
+}
+
+body {
+  background: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+h1 {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Russo One', sans-serif;
+  font-size: 30px;
+
+}
+
+h2 {
+  padding:0;
+  margin:0;
+  margin-bottom: 20px;
+  font-size: 12px;
+
+}
+
+h4 {
+  padding:0;
+  margin: 10px 0;
+  font-weight: 900;
+  font-family: 'Russo One', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+
+}
+
+.artistimage {
+  img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}

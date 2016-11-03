@@ -1,6 +1,14 @@
+<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
 
+<div class="container">
 <h1>Artists</h1>
 
 <% @artists.each do |artist| %>
-    <p><%= artist.name %></p>
+    <h3><%= link_to artist.name, artist_path(artist.id) %></h3>
+   <h2> <%= artist.created_at.strftime("%d-%m-%y") %> </h2>
+    <div class="artistimage"><%= image_tag artist.image_url %></div>
+    <%= link_to "[New song]", new_song_path %>
+
 <% end %>
+
+</div>

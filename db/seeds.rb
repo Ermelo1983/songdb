@@ -46,15 +46,15 @@ song44 = Song.create ({title: "Smells like teen spirit"})
 song45 = Song.create ({title: "Behind blue eyes"})
 
 #artists
-artist1 = Artist.create(name: "Alice Cooper")
-artist2 = Artist.create(name: "Diggy Dex")
-artist3 = Artist.create(name: "Thypoon")
-artist4 = Artist.create(name: "21 pilots")
-artist5 = Artist.create(name: "Eminem")
-artist6 = Artist.create(name: "Osdorp Posse")
-artist7 = Artist.create(name: "Skylar Grey")
-artist8 = Artist.create(name: "Nirvana")
-artist9 = Artist.create(name: "Limp Bizkit")
+artist1 = Artist.create(name: "Alice Cooper", image_url:"http://res.cloudinary.com/janluth/image/upload/v1477288694/Alice_Cooper_ca4sli.jpg")
+artist2 = Artist.create(name: "Diggy Dex", image_url: "http://res.cloudinary.com/janluth/image/upload/v1477289406/diggydex_ct6ey6.jpg")
+artist3 = Artist.create(name: "Thypoon", image_url: "http://res.cloudinary.com/janluth/image/upload/v1477288713/Typhoon_p7vu1b.jpg")
+artist4 = Artist.create(name: "21 pilots", image_url: "http://res.cloudinary.com/janluth/image/upload/v1477288682/21_pilots_abqjzp.jpg")
+artist5 = Artist.create(name: "Eminem", image_url: "http://res.cloudinary.com/janluth/image/upload/v1477288682/Eminem_nvcprw.jpg")
+artist6 = Artist.create(name: "Osdorp Posse", image_url: "http://res.cloudinary.com/janluth/image/upload/v1477288775/Osdorp_posse_spxxlg.jpg")
+artist7 = Artist.create(name: "Skylar Grey", image_url: "http://res.cloudinary.com/janluth/image/upload/v1477288684/Skylar_Grey_vjis0r.jpg")
+artist8 = Artist.create(name: "Nirvana", image_url: "http://res.cloudinary.com/janluth/image/upload/v1477288686/nirvana_mzqxmz.jpg")
+artist9 = Artist.create(name: "Limp Bizkit", image_url: "http://res.cloudinary.com/janluth/image/upload/v1477288736/LimpBizkit_bimug2.jpg")
 
 #artist-song relation
 artist1.songs << [[song1], [song2], [song3], [song4], [song5]]
